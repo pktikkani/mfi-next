@@ -63,25 +63,34 @@ export default function HomePage() {
                 className="md:hidden rounded-2xl"
                 priority
               />
-              {/* Soft edge fade */}
-              <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-bg via-transparent to-transparent opacity-40 pointer-events-none" />
+
+              {/* Overlaid text + button inside the image */}
+              <div className="absolute inset-0 flex flex-col items-center justify-end pb-10 md:pb-16 px-4">
+                <div className="space-y-2 text-center">
+                  <p className="text-base md:text-2xl font-heading text-dark-teal drop-shadow-sm">
+                    A Free Global 24-Hour Immersion in
+                  </p>
+                  <p className="text-base md:text-2xl font-heading text-dark-teal drop-shadow-sm">
+                    Meditation, Pranayama, Asana and Chanting
+                  </p>
+                  <p className="text-sm md:text-xl font-bold text-txt-muted pt-1 md:pt-2 drop-shadow-sm">
+                    21st June 2025 From: time
+                  </p>
+                </div>
+
+                <button
+                  onClick={() => setModalOpen(true)}
+                  className="hidden md:block mt-5 px-8 py-3.5 bg-primary text-bg-elevated font-semibold rounded-xl hover:bg-primary-hover transition-all duration-300 hover:shadow-[0_0_32px_var(--c-primary-glow)] active:scale-95 text-sm"
+                >
+                  Join Meditate for India
+                </button>
+              </div>
             </div>
 
-            <div className="space-y-2 animate-fade-in-up delay-300">
-              <p className="text-lg md:text-2xl font-heading text-dark-teal">
-                A Free Global 24-Hour Immersion in
-              </p>
-              <p className="text-lg md:text-2xl font-heading text-dark-teal">
-                Meditation, Pranayama, Asana and Chanting
-              </p>
-              <p className="text-base md:text-xl font-bold text-txt-muted pt-2">
-                21st June 2025 From: time
-              </p>
-            </div>
-
+            {/* Mobile-only button below the image */}
             <button
               onClick={() => setModalOpen(true)}
-              className="mt-8 px-8 py-3.5 bg-primary text-bg-elevated font-semibold rounded-xl hover:bg-primary-hover transition-all duration-300 hover:shadow-[0_0_32px_var(--c-primary-glow)] active:scale-95 text-sm animate-fade-in-up delay-400"
+              className="md:hidden mt-4 px-8 py-3.5 bg-primary text-bg-elevated font-semibold rounded-xl hover:bg-primary-hover transition-all duration-300 hover:shadow-[0_0_32px_var(--c-primary-glow)] active:scale-95 text-sm animate-fade-in-up delay-400"
             >
               Join Meditate for India
             </button>
