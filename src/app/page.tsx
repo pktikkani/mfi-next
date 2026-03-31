@@ -64,8 +64,8 @@ export default function HomePage() {
                 priority
               />
 
-              {/* Overlaid text + button inside the image */}
-              <div className="absolute inset-0 flex flex-col items-center justify-end pb-10 md:pb-16 px-4">
+              {/* Overlaid text + button inside the bottom cloud area */}
+              <div className="absolute bottom-0 left-0 right-0 flex flex-col items-center justify-center px-4" style={{ height: '28%' }}>
                 <div className="space-y-2 text-center">
                   <p className="text-base md:text-2xl font-heading text-dark-teal drop-shadow-sm">
                     A Free Global 24-Hour Immersion in
@@ -265,9 +265,8 @@ export default function HomePage() {
               height={500}
               className="w-full rounded-3xl"
             />
-            {/* Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/30 to-transparent rounded-3xl" />
-            <div className="absolute inset-0 flex flex-col items-center justify-center">
+            {/* Text in the bottom cloud area */}
+            <div className="absolute bottom-0 left-0 right-0 flex flex-col items-center justify-center px-4" style={{ height: '35%' }}>
               <h2 className="font-heading text-5xl text-medium-teal mb-4">
                 &ldquo;Join Us&rdquo;
               </h2>
