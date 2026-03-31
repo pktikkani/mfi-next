@@ -67,13 +67,13 @@ export default function HomePage() {
               {/* Overlaid text + button inside the bottom cloud area */}
               <div className="absolute bottom-0 left-0 right-0 flex flex-col items-center justify-center px-4" style={{ height: '28%' }}>
                 <div className="space-y-2 text-center">
-                  <p className="text-base md:text-2xl font-heading text-dark-teal drop-shadow-sm">
+                  <p className="text-base md:text-2xl font-heading text-[#004552] drop-shadow-sm">
                     A Free Global 24-Hour Immersion in
                   </p>
-                  <p className="text-base md:text-2xl font-heading text-dark-teal drop-shadow-sm">
+                  <p className="text-base md:text-2xl font-heading text-[#004552] drop-shadow-sm">
                     Meditation, Pranayama, Asana and Chanting
                   </p>
-                  <p className="text-sm md:text-xl font-bold text-txt-muted pt-1 md:pt-2 drop-shadow-sm">
+                  <p className="text-sm md:text-xl font-bold text-[#006478] pt-1 md:pt-2 drop-shadow-sm">
                     21st June 2025 From: time
                   </p>
                 </div>
@@ -267,10 +267,10 @@ export default function HomePage() {
             />
             {/* Text in the bottom cloud area */}
             <div className="absolute bottom-0 left-0 right-0 flex flex-col items-center justify-center px-4" style={{ height: '35%' }}>
-              <h2 className="font-heading text-5xl text-medium-teal mb-4">
+              <h2 className="font-heading text-5xl text-[#006478] mb-4">
                 &ldquo;Join Us&rdquo;
               </h2>
-              <p className="text-xl text-txt-muted font-light mb-8">
+              <p className="text-xl text-[#006478] font-light mb-8">
                 <strong className="font-bold">Online:</strong> Join
                 live-streamed sessions from anywhere.
               </p>
