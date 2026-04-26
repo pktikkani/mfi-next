@@ -52,7 +52,7 @@ export default function HomePage() {
                 alt="Meditation"
                 width={800}
                 height={500}
-                className="hidden md:block rounded-3xl"
+                className="hidden md:block rounded-3xl "
                 priority
               />
               <Image
@@ -60,20 +60,20 @@ export default function HomePage() {
                 alt="Meditation"
                 width={400}
                 height={300}
-                className="md:hidden rounded-2xl"
+                className="md:hidden rounded-2xl "
                 priority
               />
 
               {/* Overlaid text + button inside the bottom cloud area */}
               <div className="absolute bottom-0 left-0 right-0 flex flex-col items-center justify-center px-4" style={{ height: '28%' }}>
                 <div className="space-y-2 text-center">
-                  <p className="text-base md:text-2xl font-heading text-[#004552] drop-shadow-sm">
+                  <p className="text-base md:text-2xl font-heading text-[#291334] drop-shadow-sm">
                     A Free Global 24-Hour Immersion in
                   </p>
-                  <p className="text-base md:text-2xl font-heading text-[#004552] drop-shadow-sm">
+                  <p className="text-base md:text-2xl font-heading text-[#291334] drop-shadow-sm">
                     Meditation, Pranayama, Asana and Chanting
                   </p>
-                  <p className="text-sm md:text-xl font-bold text-[#006478] pt-1 md:pt-2 drop-shadow-sm">
+                  <p className="text-sm md:text-xl font-bold text-[#FF8A00] pt-1 md:pt-2 drop-shadow-sm">
                     21st June 2025 From: time
                   </p>
                 </div>
@@ -263,14 +263,14 @@ export default function HomePage() {
               alt="Join Us"
               width={1200}
               height={500}
-              className="w-full rounded-3xl"
+              className="w-full rounded-3xl -soft"
             />
             {/* Text in the bottom cloud area */}
             <div className="absolute bottom-0 left-0 right-0 flex flex-col items-center justify-center px-4" style={{ height: '35%' }}>
-              <h2 className="font-heading text-5xl text-[#006478] mb-4">
+              <h2 className="font-heading text-5xl text-[#291334] mb-4">
                 &ldquo;Join Us&rdquo;
               </h2>
-              <p className="text-xl text-[#006478] font-light mb-8">
+              <p className="text-xl text-[#291334] font-light mb-8">
                 <strong className="font-bold">Online:</strong> Join
                 live-streamed sessions from anywhere.
               </p>
